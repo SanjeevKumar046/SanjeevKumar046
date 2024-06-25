@@ -2,9 +2,9 @@
 <h1 align="center">Hello, I'm Sanjeev Kumar</h1>
 <h3 align="center">A developer deeply passionate about front-end work.</h3>
 
-- 🔭 I’m currently working on **Watchlist Extension**
+- 🔭 Currently working on **Watchlist Extension**
 
-- 🌱 I’m currently learning **React and Front-End Frameworks**
+- 🌱 Currently learning **React and Front-End Frameworks**
 
 - 💬 Ask me about **Html, Css & Javascript**
 
