@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="darkreader-lock" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/fontawesome/css/all.css" rel="stylesheet" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="main.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js"
+    ></script>
+    <title>Sanjeev Kumar | Portfolio</title>
+  </head>
+
+  <body>
+    <div class="preloader">
+      <svg
+        id="Pre_svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="500"
+        height="500"
+        viewBox="0 0 500 500"
+        version="1.1"
+      >
+        <path
+          d="M 23.567 68.750 C 31.395 80.726, 159.509 264.756, 160.636 265.643 C 161.435 266.271, 176.034 286.746, 193.079 311.143 L 224.068 355.500 206.970 355.774 C 197.566 355.925, 182.517 355.925, 173.527 355.774 L 157.182 355.500 165.483 341.674 L 173.785 327.848 149.588 293.674 C 136.279 274.878, 124.965 259.629, 124.445 259.787 C 123.925 259.945, 101.128 299.320, 73.785 347.287 L 24.070 434.500 108.035 434.756 C 154.216 434.896, 229.701 434.896, 275.781 434.756 L 359.562 434.500 291.279 336 C 253.724 281.825, 221.985 236.446, 220.748 235.157 C 219.512 233.868, 204.755 213.168, 187.955 189.157 L 157.409 145.500 190.358 145.236 C 208.479 145.091, 223.481 145.148, 223.696 145.362 C 223.910 145.577, 220.704 151.362, 216.571 158.220 C 212.438 165.077, 208.810 171.331, 208.508 172.118 L 207.960 173.547 232.025 207.524 C 245.261 226.211, 256.407 241.597, 256.795 241.716 C 257.380 241.894, 355.803 69.972, 356.833 66.971 L 357.167 66 189.468 66 L 21.770 66 23.567 68.750 M 330.575 165.287 C 298.166 219.854, 271.616 264.875, 271.575 265.334 C 271.534 265.793, 297.375 304.149, 329 350.570 L 386.500 434.972 431.250 434.986 C 455.863 434.994, 476 434.824, 476 434.609 C 476 434.394, 452.600 396.341, 424 350.048 C 395.400 303.755, 372 265.681, 372 265.439 C 372 265.197, 396.075 220.408, 425.500 165.907 C 454.925 111.406, 479 66.631, 479 66.407 C 479 66.183, 458.863 66.017, 434.250 66.037 L 389.500 66.074 330.575 165.287"
+        />
+      </svg>
+    </div>
+    <div class="wrapper">
+      <nav>
+        <ul id="menu">
+          <li id="nav-left" class="">
+            <a>
+              <!-- <img src="images/favicon.ico" /> -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="500"
+                height="500"
+                viewBox="0 0 500 500"
+                version="1.1"
+              >
+                <path
+                  d="M 23.567 68.750 C 31.395 80.726, 159.509 264.756, 160.636 265.643 C 161.435 266.271, 176.034 286.746, 193.079 311.143 L 224.068 355.500 206.970 355.774 C 197.566 355.925, 182.517 355.925, 173.527 355.774 L 157.182 355.500 165.483 341.674 L 173.785 327.848 149.588 293.674 C 136.279 274.878, 124.965 259.629, 124.445 259.787 C 123.925 259.945, 101.128 299.320, 73.785 347.287 L 24.070 434.500 108.035 434.756 C 154.216 434.896, 229.701 434.896, 275.781 434.756 L 359.562 434.500 291.279 336 C 253.724 281.825, 221.985 236.446, 220.748 235.157 C 219.512 233.868, 204.755 213.168, 187.955 189.157 L 157.409 145.500 190.358 145.236 C 208.479 145.091, 223.481 145.148, 223.696 145.362 C 223.910 145.577, 220.704 151.362, 216.571 158.220 C 212.438 165.077, 208.810 171.331, 208.508 172.118 L 207.960 173.547 232.025 207.524 C 245.261 226.211, 256.407 241.597, 256.795 241.716 C 257.380 241.894, 355.803 69.972, 356.833 66.971 L 357.167 66 189.468 66 L 21.770 66 23.567 68.750 M 330.575 165.287 C 298.166 219.854, 271.616 264.875, 271.575 265.334 C 271.534 265.793, 297.375 304.149, 329 350.570 L 386.500 434.972 431.250 434.986 C 455.863 434.994, 476 434.824, 476 434.609 C 476 434.394, 452.600 396.341, 424 350.048 C 395.400 303.755, 372 265.681, 372 265.439 C 372 265.197, 396.075 220.408, 425.500 165.907 C 454.925 111.406, 479 66.631, 479 66.407 C 479 66.183, 458.863 66.017, 434.250 66.037 L 389.500 66.074 330.575 165.287"
+                  stroke="none"
+                />
+              </svg>
+            </a>
+            <!-- <a style="color: var(--accent)" href="">Sanjeev Kumar.</a> -->
+          </li>
+          <div id="nav_right">
+            <li><a href="#About_section">About</a></li>
+            <li><a href="#Works_section">Works</a></li>
+            <li><a href="#Skills_section">Skills</a></li>
+          </div>
+        </ul>
+      </nav>
+      <!-- Hero Section -->
+      <section id="hero_section" class="hero_section">
+        <div id="hero_title">
+          <span>DEVELOPER.</span><span>DESIGNER.</span><span>ARTIST</span>
+        </div>
+        <a href="#About_section" class="btntmplt"
+          >Know More&nbsp;<i class="fa-solid fa-arrow-down"></i
+        ></a>
+
+        <div class="Scontainer">
+          <div class="scroll_container">
+            <div class="horizontal-scrolling-items">
+              <div class="horizontal-scrolling-items__item">
+                Sanjeev Sanjeev Sanjeev Sanjeev Sanjeev Sanjeev Sanjeev Sanjeev
+                Sanjeev Sanjeev Sanjeev&nbsp
+              </div>
+            </div>
+            <div class="horizontal-scrolling-items2">
+              <div class="horizontal-scrolling-items__item2">
+                Kumar Kumar Kumar Kumar Kumar Kumar Kumar Kumar Kumar Kumar
+                Kumar Kumar Kumar&nbsp
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section id="About_section" class="About_section">
+        <div class="About_content">
+          <h1 id="About_title">About</h1>
+          <p id="About_desc">
+            From crafting cool websites to diving into app-making adventures,
+            I've been on quite the creative rollercoaster! By day, I'm at
+            Accenture, tweaking servers and cracking codes as a Linux developer.
+            <br /><br />
+            But hey, the fun doesn't stop there! After work, I'm all about
+            software development. Think of me as a digital wizard, bringing my
+            tech dreams to life! And when it's time to chill, you'll catch me
+            doodling, designing graphics, and soaking up movies and music. So,
+            by day, I'm a Linux pro, and by night, a software sorcerer. Who
+            knows? Maybe I'll even moonlight as Batman's trusty sidekick!
+          </p>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section id="Skills_section" class="Skills_section">
+        <h1>Skills</h1>
+        <div class="skill_card_container">
+          <div class="skill_card 1">
+            <h1>
+              <iconify-icon
+                icon="material-symbols:code-blocks-outline-sharp"
+              ></iconify-icon
+              >Programming
+            </h1>
+            <div class="level_container">
+              <p>Android</p>
+              <div class="level_base" id="Android">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>Python</p>
+              <div class="level_base" id="Python">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>C, C++, C#</p>
+              <div class="level_base" id="Cplus">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>PL/SQL</p>
+              <div class="level_base" id="SQL">
+                <div class="level"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill_card 2">
+            <h1>
+              <iconify-icon icon="icon-park-outline:bydesign"></iconify-icon
+              >Frontend
+            </h1>
+            <div class="level_container">
+              <p>HTML</p>
+              <div class="level_base" id="HTML">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>CSS</p>
+              <div class="level_base" id="CSS">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>Javascript</p>
+              <div class="level_base" id="JS">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>React</p>
+              <div class="level_base" id="React">
+                <div class="level"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill_card 3">
+            <h1>
+              <iconify-icon icon="iconoir:design-nib"></iconify-icon>Protyping
+            </h1>
+            <div class="level_container">
+              <p>Adobe Illustrator</p>
+              <div class="level_base" id="Illustrator">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>Adobe Photoshop</p>
+              <div class="level_base" id="Photoshop">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>Figma</p>
+              <div class="level_base" id="Figma">
+                <div class="level"></div>
+              </div>
+            </div>
+            <div class="level_container">
+              <p>Pen & Paper</p>
+              <div class="level_base" id="Paper">
+                <div class="level"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section id="Works_section" class="Works_section">
+        <h1>Works</h1>
+        <div class="cards_wrapper">
+          <div class="card">
+            <div id="overlay"></div>
+            <img src="images/IOT.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">IoT Door Lock</p>
+              <p class="card__description">
+                Designed and built a keyless door lock system enabling
+                fingerprint unlocking via Android phone sensor. Accessible
+                through app displaying lock status, access count, and
+                attendance. User-friendly, and supports Bluetooth/Wi-Fi access.
+              </p>
+              <div class="card_tags">
+                <div>Android</div>
+                <div>IOT</div>
+                <div>Java</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="overlay"></div>
+            <img src="images/rupyx.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">Rupyx</p>
+              <p class="card__description">
+                The convenience of our user-friendly app designed for
+                simplicity, stability, and rich features. Generate spending
+                reports effortlessly and review detailed financial data on a
+                daily, weekly, and monthly basis for financial management.
+              </p>
+              <div class="card_tags">
+                <div>Android</div>
+                <div>API</div>
+                <div>Java</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="overlay"></div>
+            <img src="images/convertAll2.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">ConvertAll</p>
+              <p class="card__description">
+                This app is an effortless way to convert units across different
+                measurement systems. Additionally, aims to enhance users'
+                comprehension of existing systems, providing valuable insights
+                into diverse measurement methodologies.
+              </p>
+              <div class="card_tags">
+                <div>Android</div>
+                <div>Math</div>
+                <div>Java</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="overlay"></div>
+            <img src="images/streamify.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">Streamify</p>
+              <p class="card__description">
+                An online streaming service showcasing a wide range of video
+                content from various platforms such as Jio TV, Airtel TV, Amazon
+                Prime, Netflix, Voot, Hotstar, and others, providing users with
+                a diverse entertainment experience at no charge.
+              </p>
+              <div class="card_tags">
+                <div>HTML</div>
+                <div>JS</div>
+                <div>API</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="overlay"></div>
+            <img src="images/CipherVault.png" alt="" />
+            <div class="card__content">
+              <p class="card__title">Cipher Vault</p>
+              <p class="card__description">
+                This Password Manager website offers secure storage for user
+                passwords. Utilizing AES encryption, it stores and manages
+                passwords locally. T With options to copy, edit, and delete
+                entries, it ensures streamlined and secure password management.
+              </p>
+              <div class="card_tags">
+                <div>HTML</div>
+                <div>JS</div>
+                <div>CSS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <section id="contact" class="contact">
+        <div>
+          <h3>Get In Touch</h3>
+          <p>Send an email or DM and I'll get back to you asap.</p>
+        </div>
+        <div>
+          <button
+            onclick="window.open('./Resume.pdf', '_blank')"
+            class="btntmplt"
+          >
+            Download CV
+          </button>
+          <button
+            onclick="location.href='mailto:iamsk046@gmail.com'"
+            class="btntmplt"
+          >
+            Contact Me
+          </button>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+    </div>
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="footer_content">
+          <div class="footer_logo">Sanjeev Kumar</div>
+          <div class="footer_links">
+            <ul class="footer_menu">
+              <li>
+                <a href="#hero_section">Home</a>
+              </li>
+              <li><a href="#About_section">About</a></li>
+              <li><a href="#Works_section">Works</a></li>
+              <li><a href="#Skills_section">Skills</a></li>
+            </ul>
+          </div>
+          <div class="footer_social">
+            <ul class="social_icons">
+              <li>
+                <a href="https://github.com/SanjeevKumar046" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sanjeev-kumar-d046/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/sanjeev_d_kumar/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <p>&copy; 2024 All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
